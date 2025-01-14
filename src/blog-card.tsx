@@ -1,4 +1,5 @@
 import { ArrowIcon } from "./arrow-icon";
+
 import SpaceJoyImg from "./assets/spacejoy.webp";
 
 export const BlogCard = () => {
