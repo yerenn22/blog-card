@@ -3,9 +3,9 @@ import { createRoot } from "react-dom/client";
 
 import { App } from "./app";
 
-import "@fontsource/noto-sans/400.css";
-import "@fontsource/noto-sans/500.css";
-import "@fontsource/noto-sans/600.css";
+import "@fontsource/noto-sans/latin-400.css";
+import "@fontsource/noto-sans/latin-500.css";
+import "@fontsource/noto-sans/latin-600.css";
 
 import "./index.css";
 
