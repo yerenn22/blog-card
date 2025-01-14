@@ -12,7 +12,7 @@ export const BlogCard = () => {
         />
       </figure>
 
-      <div className="font-body flex flex-col gap-3 px-4 py-6">
+      <div className="flex flex-col gap-3 px-4 py-6 font-body">
         <div className="flex flex-col gap-2">
           <span className="inline-block self-start rounded-full border-[1px] border-green-200 bg-green-50 px-2 py-[1px] text-sm text-green-700">
             Interior
