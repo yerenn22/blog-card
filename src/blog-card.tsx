@@ -12,7 +12,7 @@ export const BlogCard = () => {
         />
       </figure>
 
-      <div className="flex flex-col gap-3 px-4 py-6 font-body">
+      <div className="font-body flex flex-col gap-3 px-4 py-6">
         <div className="flex flex-col gap-2">
           <span className="inline-block self-start rounded-full border-[1px] border-green-200 bg-green-50 px-2 py-[1px] text-sm text-green-700">
             Interior
@@ -24,7 +24,7 @@ export const BlogCard = () => {
         </div>
 
         <div className="flex flex-col gap-6">
-          <p className="text-neutral-600">
+          <p className="font-medium text-neutral-600">
             Curated vibrants colors for your living, make it pop & calm in the
             same time.
           </p>
@@ -33,7 +33,7 @@ export const BlogCard = () => {
             className="flex items-center gap-[6px] font-medium text-indigo-700"
             href="#"
           >
-            Read more
+            <span className="inline-block px-[2px]">Read more</span>
             <ArrowIcon aria-hidden="true" />
           </a>
         </div>
